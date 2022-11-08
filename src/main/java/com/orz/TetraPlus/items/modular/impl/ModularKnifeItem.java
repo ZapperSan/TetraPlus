@@ -26,9 +26,7 @@ import javax.annotation.ParametersAreNonnullByDefault;
 public class ModularKnifeItem extends ItemModularHandheld {
     public final static String bladeKey = "knife/blade";
     public final static String hiltKey = "knife/hilt";
-
     public final static String guardKey = "knife/guard";
-
     public static final String identifier = "modular_knife";
 
     @ObjectHolder(TetraMod.MOD_ID + ":" + identifier)
@@ -63,16 +61,15 @@ public class ModularKnifeItem extends ItemModularHandheld {
     @Override
     public void fillItemCategory(CreativeModeTab group, NonNullList<ItemStack> items) {
         if (allowdedIn(group)) {
-            items.add(setupGreatSwordStack("iron", "stick"));
+            items.add(setupKnifeStack("iron", "stick"));
         }
     }
 
-    private ItemStack setupGreatSwordStack(String bladeMaterial, String hiltMaterial) {
+    private ItemStack setupKnifeStack(String bladeMaterial, String hiltMaterial) {
         ItemStack itemStack = new ItemStack(this);
 
-        IModularItem.putModuleInSlot(itemStack, bladeKey, "knife/knife_blade", "knife/knife_material", "knife_blade/" + bladeMaterial);
+        IModularItem.putModuleInSlot(itemStack, bladeKey, "knife/utility_blade", "knife/utility_blade_material", "utility_blade/" + bladeMaterial);
         IModularItem.putModuleInSlot(itemStack, hiltKey, "knife/basic_hilt", "knife/basic_hilt_material", "basic_hilt/" + hiltMaterial);
-        IModularItem.putModuleInSlot(itemStack, guardKey, "knife/makeshift_guard", "knife/makeshift_guard_material", "makeshift_guard/" + bladeMaterial);
 
         IModularItem.updateIdentifier(itemStack);
 

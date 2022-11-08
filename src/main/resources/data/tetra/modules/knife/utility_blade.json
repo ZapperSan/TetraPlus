@@ -41,7 +41,7 @@
         "integrity": -1,
         "magicCapacity": 1,
         "glyph": {
-          "textureX": 32
+          "textureX": 16
         },
         "availableTextures": [ "metal", "shiny", "grainy", "crude" ],
         "models": [ { "location": "tetra:items/module/knife/blade/utility/" } ]

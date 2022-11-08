@@ -23,7 +23,7 @@
   },
   "outcomes": [
     {
-      "materials": [ "tetra:wood/", "tetra:stone/", "tetra:metal/" ],
+      "materials": [ "tetra:stone/", "tetra:metal/", "tetra:gem/", "tetra:bone/" ],
       "countFactor": 3,
       "moduleKey": "knife/utility_blade",
       "moduleVariant": "utility_blade/"
