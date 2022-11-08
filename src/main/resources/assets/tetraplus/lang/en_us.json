@@ -1,0 +1,20 @@
+{
+  "tetra.slot.knife/blade": "Blade",
+  "tetra.slot.knife/hilt": "Hilt",
+  "tetra.slot.knife/guard": "Guard",
+
+  "tetra/schematic/knife/utility_blade.name": "Knife blade",
+  "tetra/schematic/knife/utility_blade.description": "Replace the current knife blade with utility knife blade.",
+  "tetra.module.knife/utility_blade.item_name": "Utility knife",
+  "tetra.module.knife/utility_blade.name": "Knife blade",
+  "tetra.module.knife/utility_blade.description": "Standard utility knife blade, handy for cutting meat or fabric, but is inadequate for combat.",
+  "tetra.module.knife/utility_blade.material_name": "Knife %s blade",
+  "tetra.module.knife/utility_blade.prefix": "%s",
+
+  "tetra/schematic/knife/basic_hilt/basic_hilt.name": "Simple hilt",
+  "tetra/schematic/knife/basic_hilt/basic_hilt.description": "Replaces the current hilt with a new one crafted from the provided material.",
+  "tetra/schematic/knife/basic_hilt/basic_hilt.slot1": "Hilt material",
+  "tetra.module.knife/basic_hilt.name": "Simple hilt",
+  "tetra.module.knife/basic_hilt.description": "A simple knife hilt. The sword hilt is the primary source of integrity for knives.",
+  "tetra.module.knife/basic_hilt.material_name": "%s hilt"
+}

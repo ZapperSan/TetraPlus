@@ -1,0 +1,12 @@
+[
+  {
+    "predicate": {
+      "items": [ "farmersdelight:iron_knife" ]
+    },
+    "item": "tetra:modular_knife",
+    "modules": {
+      "sword/blade": [ "knife/utility_blade", "utility_blade/iron" ],
+      "sword/hilt": [ "knife/basic_hilt", "basic_hilt/stick" ]
+    }
+  }
+]
