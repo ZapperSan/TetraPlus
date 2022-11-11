@@ -11,6 +11,14 @@
   "tetra.module.knife/utility_blade.material_name": "Knife %s blade",
   "tetra.module.knife/utility_blade.prefix": "%s",
 
+  "tetra/schematic/knife/kukri_blade.name": "Kukri blade",
+  "tetra/schematic/knife/kukri_blade.description": "Replace the current knife blade with kukri blade.",
+  "tetra.module.knife/kukri_blade.item_name": "Kukri",
+  "tetra.module.knife/kukri_blade.name": "Kukri blade",
+  "tetra.module.knife/kukri_blade.description": "Standard kukri blade, handy for cutting meat or fabric, but is inadequate for combat.",
+  "tetra.module.knife/kukri_blade.material_name": "Knife %s blade",
+  "tetra.module.knife/kukri_blade.prefix": "%s",
+
   "tetra/schematic/knife/basic_hilt/basic_hilt.name": "Simple hilt",
   "tetra/schematic/knife/basic_hilt/basic_hilt.description": "Replaces the current hilt with a new one crafted from the provided material.",
   "tetra/schematic/knife/basic_hilt/basic_hilt.slot1": "Hilt material",
